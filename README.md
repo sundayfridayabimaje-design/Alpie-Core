@@ -3,7 +3,7 @@
 
 🏆 First 4-bit Reasoning Model from India | Top Performance on Global Leaderboards
 
-🚀 [Quick Start](#rocket-quick-start) • 📊 [Benchmarks](#bar_chart-benchmark-results) • 💡 [Examples](#bulb-usage-examples) • 📖 [Documentation](https://huggingface.co/169Pi/Alpie-Core/blob/main/Alpie_Core.pdf) • 🤝 [Contributing](#handshake-contributing)
+🚀 [Quick Start](#rocket-quick-start) • 📊 [Benchmarks](#bar_chart-benchmark-results) • 💡 [Examples](#bulb-usage-examples) • 📖 [Technical Report](https://huggingface.co/169Pi/Alpie-Core/blob/main/Alpie_Core.pdf) • 🤝 [Contributing](#handshake-contributing)
 </div>
 
 ## ⭐ Highlights
