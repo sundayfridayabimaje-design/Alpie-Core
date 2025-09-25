@@ -7,8 +7,6 @@
 </div>
 
 ## ⭐ Highlights
-
-- 🥇 **Top Performer**: Ranks #1 on SWE-Bench Verified (57.8%) and #3 on Humanity's Last Exam
 - ⚡ **Efficient**: 4-bit quantized with 16GB VRAM footprint - runs on commodity GPUs
 - 🧮 **Strong STEM**: 92.75% on GSM8K, 81.28% on MMLU, 70% on MATH-500
 - 🌍 **Indian Context**: Optimized for competitive exams (JEE, NEET, UPSC) with multilingual support
