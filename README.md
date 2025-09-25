@@ -8,7 +8,7 @@ Alpie Core: 4-bit Quantized Reasoning Model - First from India | Top Global Perf
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Model](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-yellow)](https://huggingface.co/169Pi/Alpie-Core)
 [![Datasets](https://img.shields.io/badge/🤗%20Hugging%20Face-Datasets-green)](https://huggingface.co/datasets/169Pi)
-[![Paper](https://img.shields.io/badge/📄-Technical%20Report-red)](./docs/Alpie_Core.pdf)
+[![Paper]([https://img.shields.io/badge/📄-Technical%20Report-red)](./docs/Alpie_Core.pdf](https://huggingface.co/169Pi/Alpie-Core/blob/main/Alpie_Core.pdf))
 
 **🏆 First 4-bit Reasoning Model from India | Top Performance on Global Leaderboards**
 
