@@ -140,37 +140,6 @@ conda env create -f environment.yml
 conda activate alpie-core
 ```
 
-### Basic Usage
-
-```python
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from peft import PeftModel, PeftConfig
-import torch
-
-# Load model and tokenizer
-peft_model_id = "169Pi/Alpie-Core"
-config = PeftConfig.from_pretrained(peft_model_id)
-
-base_model = AutoModelForCausalLM.from_pretrained(
-    config.base_model_name_or_path,
-    torch_dtype=torch.float16,
-    device_map="auto"
-)
-
-tokenizer = AutoTokenizer.from_pretrained(config.base_model_name_or_path)
-model = PeftModel.from_pretrained(base_model, peft_model_id)
-
-# Generate response
-prompt = "Solve for x: 2x + 5 = 13"
-inputs = tokenizer(prompt, return_tensors="pt")
-
-with torch.no_grad():
-    outputs = model.generate(**inputs, max_new_tokens=500)
-    
-response = tokenizer.decode(outputs[0], skip_special_tokens=True)
-print(response)
-```
-
 ## 💡 Usage Examples
 
 <details>
