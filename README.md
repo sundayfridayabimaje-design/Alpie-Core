@@ -14,7 +14,7 @@
 
 ## 📋 Model Overview
 
-Alpie Core is a 32B parameter language model fine-tuned with 4-bit quantization using LoRA/QLoRA techniques. Built on DeepSeek-R1-Distill-Qwen-32B, it delivers frontier-level reasoning performance while maintaining exceptional efficiency.
+Alpie Core is one of the first fine-tuned 4-bit reasoning models from India, and among one of the first worldwide. Trained on just 8 Hopper GPUs using LoRA for parameter-efficient fine-tuning, combined with QLoRA 4-bit quantization, and synthetic STEM-rich dataset distillation, it proves that aggressive quantization can not only match but also surpass full-precision baselines.
 
 | Specification | Details |
 |---------------|---------|
