@@ -272,50 +272,6 @@ outputs = model.generate(
 )
 ```
 
-## 🗂️ Repository Structure
-
-```
-📁 Alpie-Core-Project/
-├── 📄 README.md                    # This file
-├── 📄 LICENSE                      # Apache 2.0 license
-├── 📄 requirements.txt             # Python dependencies
-├── 📄 environment.yml              # Conda environment
-├── 📁 docs/                        # Documentation
-│   ├── 📄 Alpie_Core.pdf          # Technical report
-│   ├── 📄 INSTALLATION.md         # Detailed installation guide
-│   ├── 📄 USAGE.md                # Usage examples
-│   ├── 📄 API_REFERENCE.md        # API documentation
-│   └── 📁 figures/                # Benchmark visualizations
-│       ├── 📊 combined_benchmark.png
-│       ├── 📊 GSM8K (1).png
-│       ├── 📊 BBH.png
-│       ├── 📊 AIME.png
-│       ├── 📊 HLE.png
-│       ├── 📊 swe.png
-│       └── 📊 carbon_footprint.png
-├── 📁 examples/                    # Example scripts and notebooks
-│   ├── 📄 basic_usage.py          # Basic usage example
-│   ├── 📄 streaming_demo.py       # Streaming generation
-│   ├── 📄 evaluation.py           # Model evaluation
-│   └── 📓 interactive_demo.ipynb  # Jupyter notebook
-├── 📁 datasets/                    # Dataset documentation
-│   ├── 📄 README.md               # Dataset overview
-│   ├── 📄 exambench.md            # ExamBench dataset info
-│   ├── 📄 indic_reasoning.md      # Indic Reasoning dataset info
-│   ├── 📄 medical_psychology.md   # Medical Psychology dataset info
-│   └── 📄 indian_law.md           # Indian Law dataset info
-├── 📁 scripts/                     # Utility scripts
-│   ├── 📄 benchmark.py            # Benchmarking script
-│   └── 📄 convert_model.py        # Model conversion utilities
-├── 📁 tests/                       # Unit tests
-│   ├── 📄 test_model.py           # Model tests
-│   └── 📄 test_utils.py           # Utility tests
-└── 📁 .github/                     # GitHub specific files
-    ├── 📁 workflows/               # CI/CD workflows
-    ├── 📄 ISSUE_TEMPLATE.md       # Issue template
-    └── 📄 PULL_REQUEST_TEMPLATE.md # PR template
-```
-
 ## ⭐ Use Cases
 
 - 🎓 **Education**: STEM tutoring, competitive exam preparation
@@ -337,7 +293,7 @@ outputs = model.generate(
 ### Environmental Impact
 
 <div align="center">
-<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/figures/carbon_footprint.png?raw=true" alt="Carbon Footprint Analysis" width="600"/>
+<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/figures/carbon_footprint.png?raw=true" alt="Carbon Footprint Analysis" width="600"/>
 </div>
 
 - **Training Carbon Footprint**: ~298-835 kg CO₂e
