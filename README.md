@@ -35,7 +35,7 @@ We introduce Alpie-Core, our first-generation reasoning model. It is a 32B-param
 
 <div align="center">
   <picture>
-      <img src="figures/combined_benchmark.png" width="97%">
+      <img src="figures/combined_benchmark.png" width="920" height="350">
   </picture>
 </div>
 
