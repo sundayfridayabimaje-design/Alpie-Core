@@ -249,7 +249,7 @@ with torch.no_grad():
 ---
 ## 8. Acknowledgements / Credits
 
-We want to thank DeepSeek for their original model, which was the basis for this work. Our team adjusted the model and used 4-bit quantization. This resulted in better efficiency and accuracy for our tasks. This model respects the contributions of the original authors and aims to provide a safe, high-performance solution for reasoning and inference.
+We want to thank DeepSeek for their original model, which was the basis for this work. Our team fine tuned the model and used 4-bit quantization. This resulted in better efficiency and accuracy for our tasks. This model respects the contributions of the original authors and aims to provide a safe, high-performance solution for reasoning and inference.
 
 We also appreciate the Hugging Face ecosystem (Transformers, PEFT, vLLM, bitsandbytes), the open-source community datasets (MMLU, GSM8K, SWE-Bench, and others), and the help from various cloud providers. Finally, we recognize the broader AI research community and companies whose innovations and insights keep inspiring our work.
 
