@@ -257,3 +257,6 @@ We also appreciate the Hugging Face ecosystem (Transformers, PEFT, vLLM, bitsand
 
 ## 9. Contact
 If you have any questions or concerns, please reach out to us at **contact@169pi.com**
+
+
+For technical details, training methodology, and comprehensive evaluation results, please refer to our technical report.
