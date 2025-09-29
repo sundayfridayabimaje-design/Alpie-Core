@@ -64,7 +64,7 @@ After=network.target
 [Service]
 User=azureuser
 Group=azureuser
-Environment=CUDA_VISIBLE_DEVICES=0,1
+Environment=CUDA_VISIBLE_DEVICES=0
 Environment=HF_HOME=/home/azureuser/.cache/huggingface
 WorkingDirectory=/home/azureuser
 
@@ -97,9 +97,9 @@ Specifies which LoRA modules to apply. In this example, the `reasoning` module i
 Sets the data type for the model automatically (float16, bfloat16, etc.) based on GPU capabilities.
 
 ### `--tensor-parallel-size 1`
-Number of GPUs used for tensor parallelism. Since you set `CUDA_VISIBLE_DEVICES=0,1`, 2 GPUs are used in parallel to handle larger models.
+Number of GPUs used for tensor parallelism. Since you set `CUDA_VISIBLE_DEVICES=0`, 1 GPUs are used in parallel to handle larger models.
 
-### `--max-model-len 65000`
+### `--max-model-len "YOUR_MODEL_CONTEXT_WINDOW"`
 Maximum sequence length the model can handle. Larger values allow longer input texts, but consume more GPU memory.
 
 ## Start the Service
