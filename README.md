@@ -3,7 +3,7 @@
 
 🏆 First 4-bit Reasoning Model from India | Top Performance on Global Leaderboards
 
-🚀 [Quick Start](#rocket-quick-start) • 📊 [Benchmarks](#bar_chart-benchmark-results) • 💡 [Examples](#bulb-usage-examples) • 📖 [Technical Report](https://huggingface.co/169Pi/Alpie-Core/blob/main/Alpie_Core.pdf) • 🤝 [Contributing](#handshake-contributing)
+🚀 [Quick Start](#rocket-quick-start) • 📊 [Benchmarks](#bar_chart-benchmark-results) • 💡 [Examples](#bulb-usage-examples) • 📖 [Technical Report](https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/Alpie_Core.pdf) • 🤝 [Contributing](#handshake-contributing)
 </div>
 
 ## ⭐ Highlights
@@ -29,6 +29,10 @@ Alpie Core is a 32B parameter language model fine-tuned with 4-bit quantization 
 
 ### Core Benchmarks
 
+<div align="center">
+<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/figures/combined_benchmark.png?raw=true" alt="Combined Benchmark Results" width="800"/>
+</div>
+
 | **Benchmark** | **Alpie Core (32B-4bit)** | **DeepSeek-V2 (236B)** | **Qwen2.5 72B** | **Llama 3.1 405B** | **Llama 3.1 70B** | **Gemma-3 27B-PT** | **Mistral-Small-24B-Base-2501** |
 |---------------|---------------------------|-------------------------|------------------|--------------------|--------------------|---------------------|----------------------------------|
 | **MMLU (5-shot)** | **81.28%** | 78.4% | 85.0% | 84.4% | 79.3% | 78.6% | 80.73% |
@@ -40,9 +44,46 @@ Alpie Core is a 32B parameter language model fine-tuned with 4-bit quantization 
 
 These results demonstrate Alpie Core's ability to rival or surpass leading proprietary and open-source models, despite being 4-bit quantized.
 
+### Individual Benchmark Visualizations
+
+<table>
+<tr>
+<td width="50%">
+<div align="center">
+<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/figures/GSM8K%20(1).png?raw=true" alt="GSM8K Performance" width="100%"/>
+<br><b>GSM8K Performance</b>
+</div>
+</td>
+<td width="50%">
+<div align="center">
+<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/figures/BBH.png?raw=true" alt="BBH Performance" width="100%"/>
+<br><b>BBH Performance</b>
+</div>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<div align="center">
+<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/figures/AIME.png?raw=true" alt="AIME Performance" width="100%"/>
+<br><b>AIME Performance</b>
+</div>
+</td>
+<td width="50%">
+<div align="center">
+<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/figures/HLE.png?raw=true" alt="Humanity's Last Exam Performance" width="100%"/>
+<br><b>Humanity's Last Exam Performance</b>
+</div>
+</td>
+</tr>
+</table>
+
 ### Leaderboard Performance
 
 #### 🏆 SWE-Bench Verified Performance
+
+<div align="center">
+<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/figures/swe.png?raw=true" alt="SWE-Bench Performance" width="600"/>
+</div>
 
 | **Rank** | **Model** | **Accuracy (%)** | **Performance vs Alpie** |
 |----------|-----------|------------------|---------------------------|
@@ -243,7 +284,15 @@ outputs = model.generate(
 │   ├── 📄 Alpie_Core.pdf          # Technical report
 │   ├── 📄 INSTALLATION.md         # Detailed installation guide
 │   ├── 📄 USAGE.md                # Usage examples
-│   └── 📄 API_REFERENCE.md        # API documentation
+│   ├── 📄 API_REFERENCE.md        # API documentation
+│   └── 📁 figures/                # Benchmark visualizations
+│       ├── 📊 combined_benchmark.png
+│       ├── 📊 GSM8K (1).png
+│       ├── 📊 BBH.png
+│       ├── 📊 AIME.png
+│       ├── 📊 HLE.png
+│       ├── 📊 swe.png
+│       └── 📊 carbon_footprint.png
 ├── 📁 examples/                    # Example scripts and notebooks
 │   ├── 📄 basic_usage.py          # Basic usage example
 │   ├── 📄 streaming_demo.py       # Streaming generation
@@ -287,6 +336,10 @@ outputs = model.generate(
 
 ### Environmental Impact
 
+<div align="center">
+<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/figures/carbon_footprint.png?raw=true" alt="Carbon Footprint Analysis" width="600"/>
+</div>
+
 - **Training Carbon Footprint**: ~298-835 kg CO₂e
 - **2-3x more efficient** than FP16 training
 - **Sustainable AI**: Optimized for deployment efficiency
@@ -297,6 +350,8 @@ outputs = model.generate(
 - **Fine-tuning**: LoRA (rank=16, alpha=16, dropout=0.05)
 - **Training Hardware**: 8× NVIDIA H100-80GB
 - **Base Model**: DeepSeek-R1-Distill-Qwen-32B
+
+For comprehensive technical information, please refer to our [Technical Report](https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/Alpie_Core.pdf).
 
 ## 📚 Datasets
 
@@ -337,7 +392,6 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ## 📞 Contact
 
 - **Technical Support**: contact@169pi.com
-- **Business Inquiries**: business@169pi.com
 - **GitHub**: [@169Pi](https://github.com/169Pi)
 - **Hugging Face**: [169Pi](https://huggingface.co/169Pi)
 
