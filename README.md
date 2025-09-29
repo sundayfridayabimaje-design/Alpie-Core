@@ -102,7 +102,7 @@ We introduce Alpie-Core, our first-generation reasoning model. It is a 32B-param
 ### Humanity's Last Exam Leaderboard Performance
 <div align="center">
   <picture>
-    <img src="figures/HLE.png" width="92%" alt="Humanity's Last Exam - Accuracy Comparison">
+    <img src="figures/HLE.png" width="95%" alt="Humanity's Last Exam - Accuracy Comparison">
   </picture>
 </div>
 
