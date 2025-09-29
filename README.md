@@ -1,6 +1,6 @@
 <div align="center">
   <picture>
-      <img src="figures/logo border.svg" width="30%" alt="Alpie-Core: Efficient Reasoning Intelligence">
+      <img src="figures/logo-border-169.svg" width="30%" alt="Alpie-Core: Efficient Reasoning Intelligence">
   </picture>
 </div>
 
