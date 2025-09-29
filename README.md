@@ -82,7 +82,7 @@ We introduce Alpie-Core, our first-generation reasoning model. It is a 32B-param
   </tr>
   <tr>
     <td><b>Specialization</b></td>
-    <td>Reasoning, Mathematics, Coding</td>
+    <td>Reasoning, Mathematics, Coding, Science</td>
   </tr>
 </table>
 
