@@ -30,7 +30,7 @@ Alpie Core is a 32B parameter language model fine-tuned with 4-bit quantization 
 ### Core Benchmarks
 
 <div align="center">
-<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/figures/combined_benchmark.png?raw=true" alt="Combined Benchmark Results" width="800"/>
+<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/figures/combined_benchmark.png?raw=true" alt="Combined Benchmark Results" width="800"/>
 </div>
 
 | **Benchmark** | **Alpie Core (32B-4bit)** | **DeepSeek-V2 (236B)** | **Qwen2.5 72B** | **Llama 3.1 405B** | **Llama 3.1 70B** | **Gemma-3 27B-PT** | **Mistral-Small-24B-Base-2501** |
@@ -50,13 +50,13 @@ These results demonstrate Alpie Core's ability to rival or surpass leading propr
 <tr>
 <td width="50%">
 <div align="center">
-<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/figures/GSM8K%20(1).png?raw=true" alt="GSM8K Performance" width="100%"/>
+<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/figures/GSM8K%20(1).png?raw=true" alt="GSM8K Performance" width="100%"/>
 <br><b>GSM8K Performance</b>
 </div>
 </td>
 <td width="50%">
 <div align="center">
-<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/figures/BBH.png?raw=true" alt="BBH Performance" width="100%"/>
+<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/figures/BBH.png?raw=true" alt="BBH Performance" width="100%"/>
 <br><b>BBH Performance</b>
 </div>
 </td>
@@ -64,13 +64,13 @@ These results demonstrate Alpie Core's ability to rival or surpass leading propr
 <tr>
 <td width="50%">
 <div align="center">
-<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/figures/AIME.png?raw=true" alt="AIME Performance" width="100%"/>
+<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/figures/AIME.png?raw=true" alt="AIME Performance" width="100%"/>
 <br><b>AIME Performance</b>
 </div>
 </td>
 <td width="50%">
 <div align="center">
-<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/figures/HLE.png?raw=true" alt="Humanity's Last Exam Performance" width="100%"/>
+<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/figures/HLE.png?raw=true" alt="Humanity's Last Exam Performance" width="100%"/>
 <br><b>Humanity's Last Exam Performance</b>
 </div>
 </td>
@@ -82,7 +82,7 @@ These results demonstrate Alpie Core's ability to rival or surpass leading propr
 #### 🏆 SWE-Bench Verified Performance
 
 <div align="center">
-<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/docs/figures/swe.png?raw=true" alt="SWE-Bench Performance" width="600"/>
+<img src="https://github.com/169Pi/Alpie-Core-Project/blob/main/figures/swe.png?raw=true" alt="SWE-Bench Performance" width="600"/>
 </div>
 
 | **Rank** | **Model** | **Accuracy (%)** | **Performance vs Alpie** |
