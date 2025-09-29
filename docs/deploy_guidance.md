@@ -96,7 +96,7 @@ Specifies which LoRA modules to apply. In this example, the `reasoning` module i
 ### `--dtype auto`
 Sets the data type for the model automatically (float16, bfloat16, etc.) based on GPU capabilities.
 
-### `--tensor-parallel-size 2`
+### `--tensor-parallel-size 1`
 Number of GPUs used for tensor parallelism. Since you set `CUDA_VISIBLE_DEVICES=0,1`, 2 GPUs are used in parallel to handle larger models.
 
 ### `--max-model-len 65000`
