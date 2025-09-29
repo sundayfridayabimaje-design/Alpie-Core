@@ -12,6 +12,7 @@
   <a href="https://huggingface.co/169Pi"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-169Pi%20AI-yellow" alt="Hugging Face"></a>
   <a href="https://www.linkedin.com/company/169pi/"><img src="https://img.shields.io/badge/LinkedIn-169Pi%20AI-blue" alt="LinkedIn"></a>
   <a href="https://x.com/169Pi_ai"><img src="https://img.shields.io/badge/X-169Pi%20AI-black" alt="X"></a>
+  <a href="doc/Alpie_Core.pdf"><img src="https://img.shields.io/badge/📄%20Technical%20Report-Alpie%20Core-green" alt="Technical Report"></a>
 </p>
 
 ## 1. Model Introduction
@@ -32,7 +33,11 @@ We introduce Alpie-Core, our first-generation reasoning model. It is a 32B-param
 - **Carbon footprint**: Just 298-835 kg CO₂e, much lower than full-precision options.
 - **Improved content access**: Offers balanced responses to geopolitically sensitive topics.
 
-
+<div align="center">
+  <picture>
+      <img src="figures/combined_benchmark.png" width="95%">
+  </picture>
+</div>
 
 ## 2. Model Summary
 
