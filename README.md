@@ -8,11 +8,11 @@
 <hr>
 
 <p align="center">
-  <a href="https://169pi.ai/"><img src="https://img.shields.io/badge/🌐%20Website-169Pi%20AI-blue" alt="Website"></a>
-  <a href="https://huggingface.co/169Pi"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-169Pi%20AI-yellow" alt="Hugging Face"></a>
-  <a href="https://www.linkedin.com/company/169pi/"><img src="https://img.shields.io/badge/LinkedIn-169Pi%20AI-blue" alt="LinkedIn"></a>
-  <a href="https://x.com/169Pi_ai"><img src="https://img.shields.io/badge/X-169Pi%20AI-black" alt="X"></a>
-  <a href="docs/Alpie_Core.pdf"><img src="https://img.shields.io/badge/📄%20Technical%20Report-Alpie%20Core-green" alt="Technical Report"></a>
+  <a href="https://169pi.ai/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/🌐%20Website-169Pi%20AI-blue" alt="Website"></a>
+  <a href="https://huggingface.co/169Pi" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-169Pi%20AI-yellow" alt="Hugging Face"></a>
+  <a href="https://www.linkedin.com/company/169pi/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-169Pi%20AI-blue" alt="LinkedIn"></a>
+  <a href="https://x.com/169Pi_ai" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/X-169Pi%20AI-black" alt="X"></a>
+  <a href="docs/Alpie_Core.pdf" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/📄%20Technical%20Report-Alpie%20Core-green" alt="Technical Report"></a>
 </p>
 
 ## 1. Model Introduction
@@ -95,14 +95,14 @@ We introduce Alpie-Core, our first-generation reasoning model. It is a 32B-param
 
 <div align="center">
   <picture>
-    <img src="figures/swe.png" width="65%" alt="SWE-Bench Verified - Accuracy Comparison">
+    <img src="figures/swe.png" width="70%" alt="SWE-Bench Verified - Accuracy Comparison">
   </picture>
 </div>
 
 ### Humanity's Last Exam Leaderboard Performance
 <div align="center">
   <picture>
-    <img src="figures/HLE.png" width="60%" alt="Humanity's Last Exam - Accuracy Comparison">
+    <img src="figures/HLE.png" width="85%" alt="Humanity's Last Exam - Accuracy Comparison">
   </picture>
 </div>
 
