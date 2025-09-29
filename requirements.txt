@@ -1,0 +1,4 @@
+torch
+transformers
+peft
+accelerate (helps with device_map="auto")(optional)
