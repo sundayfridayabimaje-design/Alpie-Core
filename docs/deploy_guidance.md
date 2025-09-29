@@ -11,6 +11,22 @@ pip install vllm==0.9.2
 
 ```
 
+### Download Model
+
+```python
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+# Replace with the model you want
+model_name = "YOUR_MODEL_NAME"
+
+# Download model and tokenizer
+model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto")
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+model.save_pretrained("MODEL_PATH")
+tokenizer.save_pretrained("MODEL_PATH")
+```
+
 Run vLLM directly from the command line:
 
 ```bash
