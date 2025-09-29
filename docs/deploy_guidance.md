@@ -37,8 +37,8 @@ HF_HOME=/home/azureuser/.cache/huggingface \
   --enable-lora \
   --lora-modules reasoning=YOUR_FINE_TUNED_MODEL \
   --dtype auto \
-  --tensor-parallel-size 2 \
-  --max-model-len 65000 \
+  --tensor-parallel-size 1 \
+  --max-model-len "YOUR_MODEL_CONTEXT_WINDOW" \
   --host 0.0.0.0 \
   --port 8001
 ```
@@ -73,8 +73,8 @@ ExecStart=/home/azureuser/vllm_env/bin/vllm serve \
   --enable-lora \
   --lora-modules reasoning=YOUR_FINE_TUNED_MODEL \
   --dtype auto \
-  --tensor-parallel-size 2 \
-  --max-model-len 65000 \
+  --tensor-parallel-size 1 \
+  --max-model-len "YOUR_MODEL_CONTEXT_WINDOW" \
   --host 0.0.0.0 \
   --port 8001
 
