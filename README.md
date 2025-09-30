@@ -255,8 +255,111 @@ We also appreciate the Hugging Face ecosystem (Transformers, PEFT, vLLM, bitsand
 
 ---
 
-## 9. Contact
-If you have any questions or concerns, please reach out to us at **contact@169pi.com**
+## 9. Contributing
 
+We welcome contributions from the community! Whether you're fixing bugs, improving documentation, adding new features, or sharing insights, your contributions help make Alpie-Core better for everyone.
 
-For technical details, training methodology, and comprehensive evaluation results, please refer to our technical report.
+### How to Contribute
+
+#### Reporting Issues
+If you encounter any bugs, have feature requests, or face deployment challenges:
+
+1. **Check existing issues** to avoid duplicates
+2. **Open a new issue** with a clear title and description
+3. **Include the following information**:
+   - Environment details (GPU, OS, Python version)
+   - Steps to reproduce the issue
+   - Expected vs. actual behavior
+   - Error messages or logs (if applicable)
+   - Code snippets demonstrating the issue
+
+####  Submitting Pull Requests
+
+We follow a standard GitHub workflow for contributions:
+
+1. **Fork the repository** to your GitHub account
+2. **Clone your fork** locally:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/Alpie-Core.git
+   cd Alpie-Core
+   ```
+
+3. **Create a new branch** for your feature or fix:
+   ```bash
+   git checkout -b feature/your-feature-name
+   # or
+   git checkout -b fix/issue-description
+   ```
+
+4. **Make your changes**:
+   - Write clean, documented code
+   - Follow existing code style and conventions
+   - Add comments where necessary
+   - Update documentation if needed
+
+5. **Test your changes** thoroughly:
+   - Ensure existing functionality isn't broken
+   - Add tests for new features when applicable
+   - Verify on your hardware setup
+
+6. **Commit your changes** with clear, descriptive messages:
+   ```bash
+   git add .
+   git commit -m "Add: Brief description of your changes"
+   ```
+
+7. **Push to your fork**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+8. **Open a Pull Request**:
+   - Go to the original repository
+   - Click "New Pull Request"
+   - Select your fork and branch
+   - Provide a clear description of your changes
+   - Reference any related issues (e.g., "Fixes #123")
+
+#### Contribution Guidelines
+
+- **Code Quality**: Follow PEP 8 for Python code
+- **Documentation**: Update README or docs for any user-facing changes
+- **Commit Messages**: Use clear, descriptive commit messages
+- **Testing**: Test your changes before submitting
+- **Scope**: Keep PRs focused on a single feature or fix
+- **Communication**: Be responsive to feedback and questions
+
+#### 🎯 Areas Where We Need Help
+
+- **Performance Optimization**: Improving inference speed and memory efficiency
+- **Documentation**: Tutorials, examples, and use case guides
+- **Testing**: Expanding test coverage and benchmark evaluations
+- **Deployment**: Support for additional inference engines and platforms
+- **Bug Fixes**: Addressing issues reported by the community
+- **Examples**: Real-world application examples and notebooks
+
+#### 🌟 Recognition
+
+Contributors will be acknowledged in our:
+- README Contributors section
+- Release notes
+- Technical reports (for significant contributions)
+
+### Code of Conduct
+
+We are committed to providing a welcoming and inclusive environment. Please:
+- Be respectful and constructive in all interactions
+- Focus on what is best for the community
+- Show empathy towards other community members
+- Accept constructive criticism gracefully
+
+### Questions?
+
+If you have questions about contributing, feel free to:
+- Open a discussion in the Issues tab
+- Reach out to us at **contact@169pi.com**
+- Connect with us on [LinkedIn](https://www.linkedin.com/company/169pi/) or [X](https://x.com/169Pi_ai)
+
+---
+
+**Thank you for helping make Alpie-Core better!**
