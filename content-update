@@ -1,0 +1,31 @@
+### @sundayfridayabimaje-design — Content Loop
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 190" width="400" height="190" font-family="sans-serif" font-size="14">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#888"/>
+    </marker>
+  </defs>
+
+  <rect x="10" y="60" width="80" height="44" rx="10" fill="#6C5CE7"/>
+  <text x="50" y="87" text-anchor="middle" fill="#fff">Idea</text>
+
+  <rect x="110" y="60" width="80" height="44" rx="10" fill="#0984E3"/>
+  <text x="150" y="87" text-anchor="middle" fill="#fff">Draft</text>
+
+  <rect x="210" y="60" width="80" height="44" rx="10" fill="#00B894"/>
+  <text x="250" y="87" text-anchor="middle" fill="#fff">Publish</text>
+
+  <rect x="310" y="60" width="80" height="44" rx="10" fill="#E17055"/>
+  <text x="350" y="87" text-anchor="middle" fill="#fff">Engage</text>
+
+  <line x1="90" y1="82" x2="108" y2="82" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="190" y1="82" x2="208" y2="82" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="290" y1="82" x2="308" y2="82" stroke="#888" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <path d="M350,104 L350,150 L50,150 L50,106" fill="none" stroke="#888" stroke-width="2" stroke-dasharray="5,4" marker-end="url(#arrow)"/>
+  <text x="200" y="172" text-anchor="middle" fill="#888" font-size="12">feedback shapes the next idea</text>
+</svg>
+
+*What it represents:* A content generation loop where audience feedback feeds back into the next idea, so each piece improves on the last.
+*Find me:* github.com/sundayfridayabimaje-design
